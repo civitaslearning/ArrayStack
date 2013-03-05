@@ -1,0 +1,21 @@
+{
+	"name": "ArrayStack",
+	"version": "0.0.1",
+	"description": "Stack like interface for array",
+	"main": "./lib/arraystack.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/civitaslearning/ArrayStack.git"
+	},
+	"keywords": [
+		"array"
+	],
+	"author": "Koy Kragh <koy.kragh@civitaslearning.com>",
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.8"
+	}
+}
