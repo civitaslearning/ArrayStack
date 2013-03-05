@@ -99,3 +99,5 @@ Return the first / oldest element in the stack.
 #### ArrayStack.last()
 Return the last / newest element in the stack.
 
+#### ArrayStack.toArray()
+Return the data in the stack as an array.
