@@ -46,7 +46,7 @@ var arraystack = require('ArrayStack');
 
 ### Initialize stack object
 
-#### init(<config>,<callback>)
+#### init(&lt;config&gt;,&lt;callback&gt;)
 **config**
 Accepts an array or a configuration object. Passing an array will initialize
 the data to the contents of the array. The configuration object has the
@@ -69,15 +69,15 @@ arraystack.init([], function (err, data) {
 });
 ```
 
-#### ArrayStack.configure(<config>)
+#### ArrayStack.configure(&lt;config&gt;)
 You can call the ArrayStack object's configure method directly. The "config"
 parameter accepts data in the same format as the init() method above.
 
-#### ArrayStack.setData(<data>)
+#### ArrayStack.setData(&lt;data&gt;)
 You can call the ArrayStack object's setData method directly. Pass an array
 and the object's data will be set to a copy of the array's contents.
 
-#### ArrayStack.push(<data>)
+#### ArrayStack.push(&lt;data&gt;)
 Push the passed data onto the object's stack. ArrayStack.add is an alias for
 this method.
 
@@ -90,6 +90,4 @@ Return the first / oldest element in the stack.
 
 #### ArrayStack.last()
 Return the last / newest element in the stack.
-
-
 
