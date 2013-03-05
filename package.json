@@ -2,7 +2,7 @@
 	"name": "ArrayStack",
 	"version": "0.0.1",
 	"description": "Stack like interface for array",
-	"main": "./lib/arraystack.js",
+	"main": "./lib/ArrayStack.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
