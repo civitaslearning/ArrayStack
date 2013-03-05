@@ -29,6 +29,14 @@ arraystack.init(['item 1', 'item 2'], function (err, data) {
 	}
 });
 ```
+#### Output
+```
+data   : [ 'item 1', 'item 2', 'pushed data' ]
+first  : item 1
+last   : pushed data
+poppped: pushed data
+data   : [ 'item 1', 'item 2' ]
+```
 
 ## Installation
 
