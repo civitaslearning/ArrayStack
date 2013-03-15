@@ -16,6 +16,6 @@
 	"author": "Koy Kragh <koy.kragh@civitaslearning.com>",
 	"license": "MIT",
 	"engines": {
-		"node": ">=0.8"
+		"node": ">=0.6"
 	}
 }
